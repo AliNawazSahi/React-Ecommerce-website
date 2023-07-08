@@ -1,45 +1,64 @@
-import React from 'react';
+import React ,  {useHistory}  from 'react';
+import "../Main.css";
+import Bounce from 'react-reveal/Bounce';
 import collection_image1 from "../images/collection_image1.webp";
 import collection_image2 from "../images/collection_image2.webp";
 import collection_image3 from "../images/collection_image3.webp";
 import collection_image4 from "../images/collection_image4.webp";
+import theme_image4 from "../images/theme_image4.webp";
 
 
 const Collections = () => {
+  
+
     return (
         <div>
-            <div className="container text-center">
-                <h2 className='my-4'><b>COLLECTIONS</b></h2>
-                <div className="container">
-                    <div className="row row-cols-1 row-cols-md-3 g-4">
-                        <div className="col mb-4">
-                            <div className="card h-100">
-                                <img src={collection_image1} className="card-img-top" alt="..."/>
-                            </div>
+            <div className="container-lg text-center mb-3" id='collection'>
+                <h2 className="my-5">
+                    <b>COLLECTIONS</b>
+                </h2>
+                <div className="row my-4">
+                    <div className="col collection_image mx-3">
+                        <div className="aspect-ratio">
+                            <Bounce>
+                                <img src={collection_image1} alt="Collection 1" className="img-fluid rounded" />
+                            </Bounce>
                         </div>
-                        <div className="col mb-4">
-                            <div className="card h-100">
-                                <img src={collection_image2} className="card-img-top" alt="..."/>
-                            </div>
+                    </div>
+                    <div className="col collection_image mx-1">
+                        <div className="aspect-ratio">
+                            <Bounce>
+                                <img src={collection_image2} alt="Collection 2" className="img-fluid rounded" />
+                            </Bounce>
                         </div>
-                        <div className="col mb-4">
-                            <div className="card h-100">
-                                <img src={collection_image3} className="card-img-top" alt="..."/>
-                            </div>
+                    </div>
+                    <div className="col collection_image mx-3">
+                        <div className="aspect-ratio">
+                            <Bounce>
+                                <img src={collection_image3} alt="Collection 3" className="img-fluid rounded" />
+                            </Bounce>
                         </div>
                     </div>
                 </div>
-                <div className="container d-flex justify-content-center h-50 w-50 ">
-                <div className=" my-4 w-50 h-50 text-center">
-                            <div className="card h-100 w-100 ">
-                                <img src={collection_image4} className="card-img-top h-75 w-100" alt="..."/>
-                            </div>
+                <div className="row justify-content-center my-5">
+                    <div className="col-4 collection_image mx-3 ">
+                        <div className="aspect-ratio custom-aspect-ratio">
+                            <Bounce>
+                                <img src={collection_image4} alt="Collection 4" className="img-fluid rounded" />
+                            </Bounce>
                         </div>
+                    </div>
+                    <div className="col-4 collection_image ">
+                        <div className="aspect-ratio custom-aspect-ratio">
+                            <Bounce>
+                                <img src={theme_image4} alt="Collection 4" className="img-fluid rounded" />
+                            </Bounce>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <br /><br /><br /><br />
         </div>
-    )
-}
+    );
+};
 
-export default Collections
+export default Collections;
