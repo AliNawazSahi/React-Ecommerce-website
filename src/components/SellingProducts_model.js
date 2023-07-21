@@ -2,6 +2,7 @@ import React from 'react';
 import '../Main.css';
 import oversizedshirt1 from "./ModelImages/oversizedshirt1_image.webp";
 import marvelshirt1 from "./ModelImages/marvelshirt1_image.webp";
+import narutoshirt1_image from "./ModelImages/narutoshirt1_image.webp";
 
 
 const SellingProducts_model = () => {
@@ -162,42 +163,43 @@ const SellingProducts_model = () => {
               <b>Explore Our Oversized T-shirts Collection</b>
             </h2>
             <div className="container row w-100">
-                 <div className="container col">
-              <a href="/SwagDekh" style={{textDecoration:"none"}}>
+              <div className="container col">
+                <a href="/SwagDekh" style={{ textDecoration: "none" }}>
 
-                <div className="card">
-                  <div className="container p-3 "> <img src={oversizedshirt1} className="card-img-top rounded" alt="Free Shipping" /></div>
-                  <div className="card-body">
-                    <p style={{ color: "#95b7b2" }} className="card-text">Free Shipping</p>
-                    <h5 className="card-title" style={{ color: "#e95598" }}> <b> Swag Dekh</b></h5>
-                    <h5 className="card-title" style={{color:"black"}} > <del>Rs.950</del> Rs.549</h5>
+                  <div className="card">
+                    <div className="container p-3 "> <img src={oversizedshirt1} className="card-img-top rounded" alt="Free Shipping" /></div>
+                    <div className="card-body">
+                      <p style={{ color: "#95b7b2" }} className="card-text">Free Shipping</p>
+                      <h5 className="card-title" style={{ color: "#e95598" }}> <b> Swag Dekh</b></h5>
+                      <h5 className="card-title" style={{ color: "black" }} > <del>Rs.950</del> Rs.549</h5>
+                    </div>
                   </div>
-                </div>
-              </a>
+                </a>
               </div>
               <div className="container col">
-
-                <div className="card rounded">
-                  <div className="container p-3 "> <img src={marvelshirt1} className="card-img-top rounded" alt="Free Shipping" /></div>
-                  <div className="card-body">
-                    <p style={{ color: "#95b7b2" }} className="card-text">Free Shipping</p>
-                    <h5 className="card-title" style={{ color: "#e95598" }}> <b> Marvel T-Shirt</b></h5>
-                    <h5 className="card-title" > <del>Rs.950</del> Rs.849</h5>
+                <a href="/Marvel_Tshirt" style={{ textDecoration: "none" }}>
+                  <div className="card rounded">
+                    <div className="container p-3 "> <img src={marvelshirt1} className="card-img-top rounded" alt="Free Shipping" /></div>
+                    <div className="card-body">
+                      <p style={{ color: "#95b7b2" }} className="card-text">Free Shipping</p>
+                      <h5 className="card-title" style={{ color: "#e95598" }}> <b> Marvel T-Shirt</b></h5>
+                      <h5 className="card-title" style={{ color: "black" }} > <del>Rs.950</del> Rs.849</h5>
+                    </div>
                   </div>
-                </div>
-
-
+                </a>
               </div>
               <div className="container col">
+                <a href="/Naruto_Tshirt" style={{ textDecoration: "none" }}>
 
                 <div className="card">
-                  <div className="container p-3 "> <img src={oversizedshirt1} className="card-img-top rounded" alt="Free Shipping" /></div>
+                  <div className="container p-3 "> <img src={narutoshirt1_image} className="card-img-top rounded" alt="Free Shipping" /></div>
                   <div className="card-body">
                     <p style={{ color: "#95b7b2" }} className="card-text">Free Shipping</p>
-                    <h5 className="card-title" style={{ color: "#e95598" }}> <b> Marvel T-Shirt</b></h5>
-                    <h5 className="card-title" > <del>Rs.950</del> Rs.849</h5>
+                    <h5 className="card-title" style={{ color: "#e95598" }}> <b> Naruto T-Shirt</b></h5>
+                    <h5 className="card-title" style={{ color: "black" }}> <del>Rs.1150</del> Rs.949</h5>
                   </div>
                 </div>
+                </a>
 
 
               </div>
