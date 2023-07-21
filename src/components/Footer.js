@@ -3,36 +3,36 @@ import React from 'react'
 const Footer = () => {
     return (
         <div id='footer'>
-            <div class="container">
-                <footer class="pt-4">
-                    <div class="row">
+            <div className="container">
+                <footer className="pt-4">
+                    <div className="row">
 
-                        <div class="col-2">
+                        <div className="col-2">
                             <h5>SHOP</h5>
-                            <ul class="nav flex-column">
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">T-Shirts</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sleeveless</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Half Sleeves</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Full Sleeves</a></li>
+                            <ul className="nav flex-column">
+                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">T-Shirts</a></li>
+                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Sleeveless</a></li>
+                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Half Sleeves</a></li>
+                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Full Sleeves</a></li>
                             </ul>
                         </div>
 
-                        <div class="col-2">
+                        <div className="col-2">
                             <h5>CUSTOMER SERVICE</h5>
-                            <ul class="nav flex-column">
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Return Policy</a></li>
+                            <ul className="nav flex-column">
+                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Contact Us</a></li>
+                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">About Us</a></li>
+                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Return Policy</a></li>
 
                             </ul>
                         </div>
 
-                        <div class="col-2 mx-3">
+                        <div className="col-2 mx-3">
                             <h5>POLICY</h5>
-                            <ul class="nav flex-column">
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy Policy
+                            <ul className="nav flex-column">
+                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Privacy Policy
                                 </a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms and Conditions</a></li>
+                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Terms and Conditions</a></li>
 
                             </ul>
                         </div>
@@ -40,7 +40,7 @@ const Footer = () => {
 
                     </div>
 
-                    <div class="d-flex justify-content-between py-4  border-top">
+                    <div className="d-flex justify-content-between py-4  border-top">
                         <p className='my-4'>&copy; 2023 Company, Inc. All rights reserved.</p>
                         <ul style={{ listStyle: "none", display: "flex", flexDirection: "row" }}>
                             <li ><a href='https://github.com/AliNawazSahi' target='_blank' title='Github' ><i className="fa-brands fa-square-github fa-2xl mx-3 my-5 contact" style={{ cursor: "pointer", color: "black" }}></i></a></li>

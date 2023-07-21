@@ -1,4 +1,4 @@
-import React ,  {useHistory}  from 'react';
+import React  from 'react';
 import "../Main.css";
 import Bounce from 'react-reveal/Bounce';
 import collection_image1 from "../images/collection_image1.webp";
@@ -19,11 +19,14 @@ const Collections = () => {
                 </h2>
                 <div className="row my-4">
                     <div className="col collection_image mx-3">
-                        <div className="aspect-ratio">
+                    <a href='/sellingProducts_model'>
+                       <div className="aspect-ratio">
                             <Bounce>
                                 <img src={collection_image1} alt="Collection 1" className="img-fluid rounded" />
                             </Bounce>
                         </div>
+                        </a>
+                        
                     </div>
                     <div className="col collection_image mx-1">
                         <div className="aspect-ratio">
@@ -56,6 +59,7 @@ const Collections = () => {
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     );
