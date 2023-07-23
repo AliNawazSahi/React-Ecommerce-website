@@ -8,7 +8,7 @@ const Footer = () => {
                     <div className="row">
 
                         <div className="col-2">
-                            <h5>SHOP</h5>
+                            <p>SHOP</p>
                             <ul className="nav flex-column">
                                 <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">T-Shirts</a></li>
                                 <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Sleeveless</a></li>
@@ -18,7 +18,7 @@ const Footer = () => {
                         </div>
 
                         <div className="col-2">
-                            <h5>CUSTOMER SERVICE</h5>
+                            <p >CUSTOMER SERVICE</p>
                             <ul className="nav flex-column">
                                 <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Contact Us</a></li>
                                 <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">About Us</a></li>
@@ -28,7 +28,7 @@ const Footer = () => {
                         </div>
 
                         <div className="col-2 mx-3">
-                            <h5>POLICY</h5>
+                            <p>POLICY</p>
                             <ul className="nav flex-column">
                                 <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Privacy Policy
                                 </a></li>

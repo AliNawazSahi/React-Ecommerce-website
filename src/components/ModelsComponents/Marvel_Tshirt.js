@@ -157,7 +157,9 @@ const Marvel_Tshirt = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      <div className="container-fluid mt-5 p-0 m-0">
+        <Footer />
+      </div>
     </>
   );
 };

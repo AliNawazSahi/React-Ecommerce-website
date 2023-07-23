@@ -4,6 +4,7 @@ import oversizedshirt1 from "./ModelImages/oversizedshirt1_image.webp";
 import marvelshirt1 from "./ModelImages/marvelshirt1_image.webp";
 import narutoshirt1_image from "./ModelImages/narutoshirt1_image.webp";
 import wingsOfFreedom1_image from './ModelImages/wingsOfFreedom1_image.webp';
+import Footer from './Footer';
 
 const SellingProducts_model = () => {
   return (
@@ -216,6 +217,9 @@ const SellingProducts_model = () => {
           </div>
         </div>
       </div>
+    </div>
+    <div className="container-fluid mt-5 p-0 m-0">
+      <Footer/>
     </div>
     </div >
   );

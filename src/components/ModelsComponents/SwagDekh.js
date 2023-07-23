@@ -89,75 +89,77 @@ const SwagDekh = () => {
 
   return (
     <>
-    <div className='mt-5'>
-      <div className="container-lg">
-        <div className="container mx-auto d-flex col ">
-          <div className="container w-25 my-3 ">
-            <div className="container my-4">
-              <a href="#" className='swagdekh'>
-                <img src={oversizedshirt1_image} alt="New Product" onClick={() => handleImageClick(oversizedshirt1_image)} />
-              </a>
+      <div className='mt-5'>
+        <div className="container-lg">
+          <div className="container mx-auto d-flex col ">
+            <div className="container w-25 my-3 ">
+              <div className="container my-4">
+                <a href="#" className='swagdekh'>
+                  <img src={oversizedshirt1_image} alt="New Product" onClick={() => handleImageClick(oversizedshirt1_image)} />
+                </a>
+              </div>
+              <div className="container my-4">
+                <a href="#" className='swagdekh'>
+                  <img src={oversizedshirt1a_image} alt="New Product" onClick={() => handleImageClick(oversizedshirt1a_image)} />
+                </a>
+              </div>
+              <div className="container my-4">
+                <a href="#" className='swagdekh'>
+                  <img src={oversizedshirt1b_image} alt="New Product" onClick={() => handleImageClick(oversizedshirt1b_image)} />
+                </a>
+              </div>
+              <div className="container my-4">
+                <a href="#" className='swagdekh'>
+                  <img src={oversizedshirt1c_image} alt="New Product" onClick={() => handleImageClick(oversizedshirt1c_image)} />
+                </a>
+              </div>
             </div>
-            <div className="container my-4">
-              <a href="#" className='swagdekh'>
-                <img src={oversizedshirt1a_image} alt="New Product" onClick={() => handleImageClick(oversizedshirt1a_image)} />
-              </a>
+            <div className="container w-50 my-5">
+              <div className='container-lg'>
+                <div className="card">
+                  <img src={mainImage} className="card-img-top" alt="..." />
+                </div>
+              </div>
             </div>
-            <div className="container my-4">
-              <a href="#" className='swagdekh'>
-                <img src={oversizedshirt1b_image} alt="New Product" onClick={() => handleImageClick(oversizedshirt1b_image)} />
-              </a>
-            </div>
-            <div className="container my-4">
-              <a href="#" className='swagdekh'>
-                <img src={oversizedshirt1c_image} alt="New Product" onClick={() => handleImageClick(oversizedshirt1c_image)} />
-              </a>
-            </div>
-          </div>
-          <div className="container w-50 my-5">
-            <div className='container-lg'>
-              <div className="card">
-                <img src={mainImage} className="card-img-top" alt="..." />
+            <div className="container-lg my-5" >
+              <div className="container">
+                <b> <p style={{ color: '#e95598' }} className='m-0'>Wear my Shirt</p> </b>
+                <p className='h3'> Swag Dekh Sarcastic Graphic Printed Oversizedtshirt (S/Black)</p>
+                <b> <p style={{ color: '#e95598' }}>Product Description</p> </b>
+                <p>Add a touch of attitude and sarcasm to your wardrobe with the "Swag Dekh Sarcastic Graphic Printed Oversized T-shirt". This trendy and edgy t-shirt features a bold and eye-catching graphic print that showcases your unique sense of style. The oversized fit offers a relaxed and comfortable look, perfect for a laid-back and effortless vibe. Crafted from premium-quality fabric, this t-shirt ensures a soft and comfortable feel against your skin. The "Swag Dekh" print delivers a sarcastic message with a touch of humor, making it a conversation starter wherever you go. Whether you're hanging out with friends or running errands, this t-shirt is a statement piece that adds a dose of personality to your outfit. Pair it with jeans, leggings, or shorts for a cool and casual ensemble. Express your individuality and showcase your swag with the "Swag Dekh Sarcastic Graphic Printed Oversized T-shirt".</p>
+              </div>
+              <div className="container">
+                <b> <p style={{ color: '#e95598' }}>Product Highlights </p></b>
+                <ul>
+                  <li>Bold and eye-catching "Swag Dekh" graphic print</li>
+                  <li>Oversized fit for a relaxed and comfortable look</li>
+                  <li>Made from premium-quality fabric for a soft feel</li>
+                  <li>Perfect for a cool and casual outfit</li>
+                  <li>Expresses your individuality and sense of humor</li>
+                </ul>
+              </div>
+              {/* Move the ShirtSizeButtonGroup component outside */}
+              <ShirtSizeButtonGroup />
+              <hr />
+              <span className='h2'><del style={{ color: "#95b7b2" }}>Rs.950</del>&nbsp;&nbsp;Rs.549</span> (Free Shipping)
+              <div className="container d-flex p-0">
+                <div className='mr-4 my-4'>
+                  <button style={{ backgroundColor: '#e95598', color: "white" }} className="btn btn-outline-success rounded m-0 " type="submit">Buy Now</button>
+                </div>
+                <div className='mx-5 my-4'>
+                  <button style={{ backgroundColor: '#e95598', color: "white" }} className="btn btn-outline-success rounded m-0" type="submit">Add to Cart</button>
+                </div>
               </div>
             </div>
           </div>
-          <div className="container-lg my-5" >
-            <div className="container">
-              <b> <p style={{ color: '#e95598' }} className='m-0'>Wear my Shirt</p> </b>
-              <p className='h3'> Swag Dekh Sarcastic Graphic Printed Oversizedtshirt (S/Black)</p>
-              <b> <p style={{ color: '#e95598' }}>Product Description</p> </b>
-              <p>Add a touch of attitude and sarcasm to your wardrobe with the "Swag Dekh Sarcastic Graphic Printed Oversized T-shirt". This trendy and edgy t-shirt features a bold and eye-catching graphic print that showcases your unique sense of style. The oversized fit offers a relaxed and comfortable look, perfect for a laid-back and effortless vibe. Crafted from premium-quality fabric, this t-shirt ensures a soft and comfortable feel against your skin. The "Swag Dekh" print delivers a sarcastic message with a touch of humor, making it a conversation starter wherever you go. Whether you're hanging out with friends or running errands, this t-shirt is a statement piece that adds a dose of personality to your outfit. Pair it with jeans, leggings, or shorts for a cool and casual ensemble. Express your individuality and showcase your swag with the "Swag Dekh Sarcastic Graphic Printed Oversized T-shirt".</p>
-            </div>
-            <div className="container">
-              <b> <p style={{ color: '#e95598' }}>Product Highlights </p></b>
-              <ul>
-                <li>Bold and eye-catching "Swag Dekh" graphic print</li>
-                <li>Oversized fit for a relaxed and comfortable look</li>
-                <li>Made from premium-quality fabric for a soft feel</li>
-                <li>Perfect for a cool and casual outfit</li>
-                <li>Expresses your individuality and sense of humor</li>
-              </ul>
-            </div>
-            {/* Move the ShirtSizeButtonGroup component outside */}
-            <ShirtSizeButtonGroup />
-            <hr />
-            <span className='h2'><del style={{ color: "#95b7b2" }}>Rs.950</del>&nbsp;&nbsp;Rs.549</span> (Free Shipping)
-            <div className="container d-flex p-0">
-              <div className='mr-4 my-4'>
-                <button style={{ backgroundColor: '#e95598', color: "white" }} className="btn btn-outline-success rounded m-0 " type="submit">Buy Now</button>
-              </div>
-              <div className='mx-5 my-4'>
-                <button style={{ backgroundColor: '#e95598', color: "white" }} className="btn btn-outline-success rounded m-0" type="submit">Add to Cart</button>
-              </div>
-            </div>
+          <div className="container">
+            <Recommended_Products />
           </div>
-        </div>
-        <div className="container">
-          <Recommended_Products />
         </div>
       </div>
-    </div>
-    <Footer/>
+      <div className="container-fluid mt-5 p-0 m-0">
+        <Footer />
+      </div>
     </>
   );
 };
