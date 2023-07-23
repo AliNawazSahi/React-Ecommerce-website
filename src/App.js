@@ -12,6 +12,8 @@ import Themes from './components/Themes';
 import SwagDekh from './components/ModelsComponents/SwagDekh';
 import Marvel_Tshirt from './components/ModelsComponents/Marvel_Tshirt';
 import Naruto_Tshirt from './components/ModelsComponents/Naruto_Tshirt';
+import WingsOfFreedom from './components/ModelsComponents/WingsOfFreedom';
+import SizeChart_Popup from './components/ModelsComponents/SizeChart_Popup';
 
 
 const MultipleComponentsWithoutModel = () => {
@@ -62,6 +64,21 @@ function App() {
       </>
     );
   };
+  const WingsOfFreedomm = () => {
+    return (
+      <>
+        <Navbar />
+        <WingsOfFreedom/>
+      </>
+    );
+  };
+  const SizeChart_Popupp = () => {
+    return (
+      <>
+        <SizeChart_Popup/>
+      </>
+    );
+  };
 
   return (
     <Router>
@@ -71,6 +88,8 @@ function App() {
         <Route path="/SwagDekh" element={<SwagDekhh />} />
         <Route path="/Marvel_Tshirt" element={<Marvel_Tshirtt />} />
         <Route path="/Naruto_Tshirt" element={<Naruto_Tshirtt />} />
+        <Route path="/WingsOfFreedom" element={<WingsOfFreedomm />} />
+        <Route path="/SizeChart_Popup" element={<SizeChart_Popupp />} />
       </Routes>
     </Router>
   );

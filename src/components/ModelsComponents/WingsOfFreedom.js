@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import "./Model.css";
-import marvelshirt1_image from '../ModelImages/marvelshirt1_image.webp';
-import marvelshirt1a_image from '../ModelImages/marvelshirt1a_image.webp';
-import marvelshirt1b_image from '../ModelImages/marvelshirt1b_image.webp';
-import marvelshirt1c_image from '../ModelImages/marvelshirt1c_image.webp';
+import wingsOfFreedom1_image from '../ModelImages/wingsOfFreedom1_image.webp';
+import wingsOfFreedom1a_image from '../ModelImages/wingsOfFreedom1a_image.webp';
+import wingsOfFreedom1b_image from '../ModelImages/wingsOfFreedom1b_image.webp';
+import wingsOfFreedom1c_image from '../ModelImages/wingsOfFreedom1c_image.webp';
 import Recommended_Products from '../Recommended_Products';
 import Footer from '../Footer';
 
@@ -78,10 +78,10 @@ const ShirtSizeButtonGroup = () => {
 };
 
 
-const Marvel_Tshirt = () => {
+const WingsOfFreedom = () => {
 
 
-  const [mainImage, setMainImage] = useState(marvelshirt1_image);
+  const [mainImage, setMainImage] = useState(wingsOfFreedom1_image);
   const handleImageClick = (image) => {
     setMainImage(image);
   };
@@ -95,22 +95,22 @@ const Marvel_Tshirt = () => {
             <div className="container w-25 my-3 ">
               <div className="container my-4">
                 <a href="#" className='swagdekh'>
-                  <img src={marvelshirt1_image} alt="New Product" onClick={() => handleImageClick(marvelshirt1_image)} />
+                  <img src={wingsOfFreedom1_image} alt="New Product" onClick={() => handleImageClick(wingsOfFreedom1_image)} />
                 </a>
               </div>
               <div className="container my-4">
                 <a href="#" className='swagdekh'>
-                  <img src={marvelshirt1a_image} alt="New Product" onClick={() => handleImageClick(marvelshirt1a_image)} />
+                  <img src={wingsOfFreedom1a_image} alt="New Product" onClick={() => handleImageClick(wingsOfFreedom1a_image)} />
                 </a>
               </div>
               <div className="container my-4">
                 <a href="#" className='swagdekh'>
-                  <img src={marvelshirt1b_image} alt="New Product" onClick={() => handleImageClick(marvelshirt1b_image)} />
+                  <img src={wingsOfFreedom1b_image} alt="New Product" onClick={() => handleImageClick(wingsOfFreedom1b_image)} />
                 </a>
               </div>
               <div className="container my-4">
                 <a href="#" className='swagdekh'>
-                  <img src={marvelshirt1c_image} alt="New Product" onClick={() => handleImageClick(marvelshirt1c_image)} />
+                  <img src={wingsOfFreedom1c_image} alt="New Product" onClick={() => handleImageClick(wingsOfFreedom1c_image)} />
                 </a>
               </div>
             </div>
@@ -124,14 +124,14 @@ const Marvel_Tshirt = () => {
             <div className="container-lg my-5" >
               <div className="container">
                 <b> <p style={{ color: '#e95598' }} className='m-0'>Wear my Shirt</p> </b>
-                <p className='h3'> Marvel-Tshirt Sarcastic Graphic Printed Oversizedtshirt (L/NavyBlue)</p>
+                <p className='h3'> Wings of Freedom Sarcastic Graphic Printed Oversizedtshirt (L/NavyBlue)</p>
                 <b> <p style={{ color: '#e95598' }}>Product Description</p> </b>
-                <p>Add a touch of attitude and sarcasm to your wardrobe with the "Marvel-Tshirt Sarcastic Graphic Printed Oversized T-shirt". This trendy and edgy t-shirt features a bold and eye-catching graphic print that showcases your unique sense of style. The oversized fit offers a relaxed and comfortable look, perfect for a laid-back and effortless vibe. Crafted from premium-quality fabric, this t-shirt ensures a soft and comfortable feel against your skin. The "Marvel-Tshirt" print delivers a sarcastic message with a touch of humor, making it a conversation starter wherever you go. Whether you're hanging out with friends or running errands, this t-shirt is a statement piece that adds a dose of personality to your outfit. Pair it with jeans, leggings, or shorts for a cool and casual ensemble. Express your individuality and showcase your swag with the "Marvel-Tshirt Sarcastic Graphic Printed Oversized T-shirt".</p>
+                <p>Add a touch of attitude and sarcasm to your wardrobe with the "Wings of Freedom Sarcastic Graphic Printed Oversized T-shirt". This trendy and edgy t-shirt features a bold and eye-catching graphic print that showcases your unique sense of style. The oversized fit offers a relaxed and comfortable look, perfect for a laid-back and effortless vibe. Crafted from premium-quality fabric, this t-shirt ensures a soft and comfortable feel against your skin. The "Wings of Freedom" print delivers a sarcastic message with a touch of humor, making it a conversation starter wherever you go. Whether you're hanging out with friends or running errands, this t-shirt is a statement piece that adds a dose of personality to your outfit. Pair it with jeans, leggings, or shorts for a cool and casual ensemble. Express your individuality and showcase your swag with the "Wings of Freedom Sarcastic Graphic Printed Oversized T-shirt".</p>
               </div>
               <div className="container">
                 <b> <p style={{ color: '#e95598' }}>Product Highlights </p></b>
                 <ul>
-                  <li>Bold and eye-catching "Marvel-Tshirt" graphic print</li>
+                  <li>Bold and eye-catching "Wings of Freedom" graphic print</li>
                   <li>Oversized fit for a relaxed and comfortable look</li>
                   <li>Made from premium-quality fabric for a soft feel</li>
                   <li>Perfect for a cool and casual outfit</li>
@@ -141,7 +141,7 @@ const Marvel_Tshirt = () => {
               {/* Move the ShirtSizeButtonGroup component outside */}
               <ShirtSizeButtonGroup />
               <hr />
-              <span className='h2'><del style={{ color: "#95b7b2" }}>Rs.950</del>&nbsp;&nbsp;Rs.849</span> (Free Shipping)
+              <span className='h2'><del style={{ color: "#95b7b2" }}>Rs.1050</del>&nbsp;&nbsp;Rs.849</span> (Free Shipping)
               <div className="container d-flex p-0">
                 <div className='mr-4 my-4'>
                   <button style={{ backgroundColor: '#e95598', color: "white" }} className="btn btn-outline-success rounded m-0 " type="submit">Buy Now</button>
@@ -162,4 +162,4 @@ const Marvel_Tshirt = () => {
   );
 };
 
-export default Marvel_Tshirt;
+export default WingsOfFreedom;

@@ -16,8 +16,7 @@ const ShirtSizeButtonGroup = () => {
   };
 
   // SizeChart
-  const sizechart_detail = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.edgecasual.com%2Fsize-chart%2F&psig=AOvVaw3FdLR93NGf0xQDoC1PDCZb&ust=1689913753769000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOD26rHanYADFQAAAAAdAAAAABAn"
-
+  const sizechart_detail = "/SizeChart_Popup"
   const openModel = () => {
     window.open(sizechart_detail, "", "width=600px,height=400px,left=400px,top=200px")
   }
@@ -70,7 +69,7 @@ const ShirtSizeButtonGroup = () => {
 
       &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
 
-      <b><span>Size Chart</span></b>  &nbsp;&nbsp; <span><i onClick={openModel} className="fa-solid fa-chart-simple fa-2xl" style={{ cursor: "pointer" }}></i></span>
+      <b><span>Size Chart</span></b>  &nbsp;&nbsp; <span><i onClick={openModel} className="fa-solid fa-chart-simple fa-fade fa-2xl" style={{ cursor: "pointer" }}></i></span>
 
 
     </div>

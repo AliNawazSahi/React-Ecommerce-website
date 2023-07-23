@@ -6,6 +6,9 @@
 body {
     background-color: #faebd74d;
 }
+#main_container{
+  margin-top: 4.7rem!important;
+}
 
 .collection_image {
     cursor: pointer;
@@ -106,73 +109,12 @@ body {
 hr{
     border: 1px solid black;
 }
-
-
-
-
-
-
-/* <div className="container-lg my-5" >
-              <div className="container">
-                <b> <p style={{ color: '#e95598' }} className='m-0'>Wear my Shirt</p> </b>
-                <p className='h3'> Swag Dekh Sarcastic Graphic Printed Oversizedtshirt (S/Black)</p>
-                <b> <p style={{ color: '#e95598' }}>Product Description</p> </b>
-                <p>Add a touch of attitude and sarcasm to your wardrobe with the "Swag Dekh Sarcastic Graphic Printed Oversized T-shirt". This trendy and edgy t-shirt features a bold and eye-catching graphic print that showcases your unique sense of style. The oversized fit offers a relaxed and comfortable look, perfect for a laid-back and effortless vibe. Crafted from premium-quality fabric, this t-shirt ensures a soft and comfortable feel against your skin. The "Swag Dekh" print delivers a sarcastic message with a touch of humor, making it a conversation starter wherever you go. Whether you're hanging out with friends or running errands, this t-shirt is a statement piece that adds a dose of personality to your outfit. Pair it with jeans, leggings, or shorts for a cool and casual ensemble. Express your individuality and showcase your swag with the "Swag Dekh Sarcastic Graphic Printed Oversized T-shirt".</p>
-              </div>
-              <div className="container">
-                <b> <p style={{ color: '#e95598' }}>Product Highlights </p></b>
-                <ul>
-                  <li>Bold and eye-catching "Swag Dekh" graphic print</li>
-                  <li>Oversized fit for a relaxed and comfortable look</li>
-                  <li>Made from premium-quality fabric for a soft feel</li>
-                  <li>Perfect for a cool and casual outfit</li>
-                  <li>Expresses your individuality and sense of humor</li>
-                </ul>
-              </div>
-              <div className="container my-4">
-                <b>
-                  <span style={{ color: '#e95598' }}> Size : </span>
-                </b>
-                <a href="#" className="mx-2">
-                  <button
-                    className={`p-1 rounded px-2 ${selectedSize === 'S' ? 'selected' : ''}`}
-                    onClick={() => toggleButton('S')}
-                  >
-                    S
-                  </button>
-                </a>
-                <a href="#" className="mx-2">
-                  <button
-                    className={`p-1 rounded px-2 ${selectedSize === 'M' ? 'selected' : ''}`}
-                    onClick={() => toggleButton('M')}
-                  >
-                    M
-                  </button>
-                </a>
-                <a href="#" className="mx-2">
-                  <button
-                    className={`p-1 rounded px-2 ${selectedSize === 'L' ? 'selected' : ''}`}
-                    onClick={() => toggleButton('L')}
-                  >
-                    L
-                  </button>
-                </a>
-                <a href="#" className="mx-2">
-                  <button
-                    className={`p-1 rounded px-2 ${selectedSize === 'XL' ? 'selected' : ''}`}
-                    onClick={() => toggleButton('XL')}
-                  >
-                    XL
-                  </button>
-                </a>
-                <a href="#" className="mx-2">
-                  <button
-                    className={`p-1 rounded px-2 ${selectedSize === 'XXL' ? 'selected' : ''}`}
-                    onClick={() => toggleButton('XXL')}
-                  >
-                    XXL
-                  </button>
-                </a>
-              </div>
-              <hr />
-            </div> */
+.SellingProducts_model_card_boxShadow {
+    background-color: #fff;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    border: 1px solid hsla(0, 0%, 82.7%, .397);
+}
+/* #SellingProducts_model_container{
+    max-width: 100%;
+} */
