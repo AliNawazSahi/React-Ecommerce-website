@@ -3,6 +3,9 @@
   margin: 0%;
 }
   
+html{
+  scroll-behavior: smooth;
+}
 
 .App {
   text-align: center;

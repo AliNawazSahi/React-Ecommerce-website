@@ -7,7 +7,7 @@ import sellingproduct_image4 from "../images/sellingproduct_image4.webp";
 
 const SellingProducts = () => {
     return (
-        <div>
+        <div id='selling_products'>
             <div className="container">
                 <div className="container text-center">
                     <h2><b>Bestselling Products</b></h2>

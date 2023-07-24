@@ -6,6 +6,8 @@ import oversizedshirt1b_image from '../ModelImages/oversizedshirt1b_image.webp';
 import oversizedshirt1c_image from '../ModelImages/oversizedshirt1c_image.webp';
 import Recommended_Products from '../Recommended_Products';
 import Footer from '../Footer';
+import ReactImageMagnify from 'react-image-magnify';
+
 
 const ShirtSizeButtonGroup = () => {
   const [selectedSize, setSelectedSize] = useState(null);
@@ -117,8 +119,25 @@ const SwagDekh = () => {
             <div className="container w-50 my-5">
               <div className='container-lg'>
                 <div className="card">
-                  <img src={mainImage} className="card-img-top" alt="..." />
+
+                  <ReactImageMagnify {...{
+                    smallImage: {
+                      alt: 'Wristwatch by Ted Baker London',
+                      isFluidWidth: true,
+                      src: mainImage
+                    },
+                    largeImage: {
+                      src: mainImage,
+                      width: 1200,
+                      height: 1800
+                    }
+                  }} />
+
+                  {/* <img src={mainImage} className="card-img-top" alt="..." /> */}
+                  
                 </div>
+
+
               </div>
             </div>
             <div className="container-lg my-5" >

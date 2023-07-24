@@ -6,6 +6,7 @@ import narutoshirt1b_image from '../ModelImages/narutoshirt1b_image.webp';
 import narutoshirt1c_image from '../ModelImages/narutoshirt1c_image.webp';
 import Recommended_Products from '../Recommended_Products';
 import Footer from '../Footer';
+import ReactImageMagnify from 'react-image-magnify';
 
 const ShirtSizeButtonGroup = () => {
   const [selectedSize, setSelectedSize] = useState(null);
@@ -116,7 +117,18 @@ const Naruto_Tshirt = () => {
             <div className="container w-50 my-5">
               <div className='container-lg'>
                 <div className="card">
-                  <img src={mainImage} className="card-img-top" alt="..." />
+                <ReactImageMagnify {...{
+                    smallImage: {
+                      alt: 'Wristwatch by Ted Baker London',
+                      isFluidWidth: true,
+                      src: mainImage
+                    },
+                    largeImage: {
+                      src: mainImage,
+                      width: 1200,
+                      height: 1800
+                    }
+                  }} />
                 </div>
               </div>
             </div>

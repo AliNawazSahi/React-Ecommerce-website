@@ -16,23 +16,21 @@ const Navbar = () => {
                                 <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     T-Shirts
                                 </a>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="/">Sleeveless</a></li>
-                                    <li><a className="dropdown-item" href="/">Half Sleeves</a></li>
-                                    <li><a className="dropdown-item" href="/">Full Sleeves</a></li>
+                                <ul className="dropdown-menu " aria-labelledby="navbarDropdown" style={{ backgroundColor: '#e95598', color: "white" }}>
+                                    <li><a style={{ color: "white" }} className="dropdown-item" href="/SwagDekh">SwagDekh</a></li>
+                                    <li><a style={{ color: "white" }} className="dropdown-item" href="/Naruto_Tshirt">Naruto T-Shirt</a></li>
+                                    <li><a style={{ color: "white" }} className="dropdown-item" href="/Marvel_Tshirt">Marvel T-Shirt</a></li>
+                                    <li><a style={{ color: "white" }} className="dropdown-item" href="/WingsOfFreedom">Wings Of Freedom</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="/">New Arrivals</a>
+                                <a className="nav-link" aria-current="page" href="/sellingProducts_model">Trending</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="/">Trending</a>
+                                <a className="nav-link" aria-current="page" href="/#selling_products">New Stuff</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="/">Summer Stuff</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="/">Winter Stuff</a>
+                                <a className="nav-link" aria-current="page" href="/About">About</a>
                             </li>
 
                         </ul>

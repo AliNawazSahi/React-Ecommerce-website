@@ -161,7 +161,7 @@ const SellingProducts_model = () => {
         <div className="container w-75">
           <div className="container text-center">
             <h2 className='m-4'>
-              <b>Explore Our Oversized T-shirts Collection</b>
+              <b>Explore Our Special Stuff</b>
             </h2>
             <div className="container row w-100" id="SellingProducts_model_container">
               <div className="container col  ">

@@ -14,6 +14,7 @@ import Marvel_Tshirt from './components/ModelsComponents/Marvel_Tshirt';
 import Naruto_Tshirt from './components/ModelsComponents/Naruto_Tshirt';
 import WingsOfFreedom from './components/ModelsComponents/WingsOfFreedom';
 import SizeChart_Popup from './components/ModelsComponents/SizeChart_Popup';
+import About from './components/About';
 
 
 const MultipleComponentsWithoutModel = () => {
@@ -79,6 +80,13 @@ function App() {
       </>
     );
   };
+  const Aboutt = () => {
+    return (
+      <>
+        <About/>
+      </>
+    );
+  };
 
   return (
     <Router>
@@ -90,6 +98,7 @@ function App() {
         <Route path="/Naruto_Tshirt" element={<Naruto_Tshirtt />} />
         <Route path="/WingsOfFreedom" element={<WingsOfFreedomm />} />
         <Route path="/SizeChart_Popup" element={<SizeChart_Popupp />} />
+        <Route path="/About" element={<Aboutt />} />
       </Routes>
     </Router>
   );
