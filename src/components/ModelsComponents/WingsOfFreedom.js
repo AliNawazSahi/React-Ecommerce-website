@@ -7,6 +7,10 @@ import wingsOfFreedom1c_image from '../ModelImages/wingsOfFreedom1c_image.webp';
 import Recommended_Products from '../Recommended_Products';
 import Footer from '../Footer';
 import ReactImageMagnify from 'react-image-magnify';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 
 const ShirtSizeButtonGroup = () => {
   const [selectedSize, setSelectedSize] = useState(null);
@@ -81,6 +85,9 @@ const ShirtSizeButtonGroup = () => {
 
 const WingsOfFreedom = () => {
 
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
 
   const [mainImage, setMainImage] = useState(wingsOfFreedom1_image);
   const handleImageClick = (image) => {
@@ -90,7 +97,7 @@ const WingsOfFreedom = () => {
 
   return (
     <>
-      <div className='mt-5'>
+      <div className='mt-5' data-aos="fade-left">
         <div className="container-lg">
           <div className="container mx-auto d-flex col ">
             <div className="container w-25 my-3 ">
@@ -118,7 +125,7 @@ const WingsOfFreedom = () => {
             <div className="container w-50 my-5">
               <div className='container-lg'>
                 <div className="card">
-                <ReactImageMagnify {...{
+                  <ReactImageMagnify {...{
                     smallImage: {
                       alt: 'Wristwatch by Ted Baker London',
                       isFluidWidth: true,
@@ -170,7 +177,7 @@ const WingsOfFreedom = () => {
         </div>
       </div>
       <div className="container-fluid mt-5 p-0 m-0">
-      <Footer />
+        <Footer />
       </div>
     </>
   );

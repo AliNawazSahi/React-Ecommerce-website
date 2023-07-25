@@ -1,11 +1,20 @@
 import React from 'react'
 import offer_image1 from "../images/offer_image1.png"
 import "../Main.css";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 
 const Offers = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+}, [])
+
   return (
     <div>
-      <div className="container-lg my-5">
+      <div className="container-lg my-5" data-aos="fade-up">
         <div className="row row-cols-1 row-cols-md-3 g-5 text-center ">
           <div className="col">
             <div className="card offer_card pb-3">

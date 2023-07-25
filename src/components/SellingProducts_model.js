@@ -5,11 +5,20 @@ import marvelshirt1 from "./ModelImages/marvelshirt1_image.webp";
 import narutoshirt1_image from "./ModelImages/narutoshirt1_image.webp";
 import wingsOfFreedom1_image from './ModelImages/wingsOfFreedom1_image.webp';
 import Footer from './Footer';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 
 const SellingProducts_model = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+}, [])
+
   return (
     <div className='mt-5'>
-      <div className="container-fluid w-100 d-flex m-0 p-0">
+      <div className="container-fluid w-100 d-flex m-0 p-0" data-aos="fade-left">
         <div className="container w-25 mt-3">
           <span>
             <h1 className="mt-2">Filter</h1>

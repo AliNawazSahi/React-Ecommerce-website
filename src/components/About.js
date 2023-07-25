@@ -1,20 +1,30 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+import Footer from './Footer';
+
 
 const About = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+    }, [])
+
     return (
         <div >
             <Navbar />
-            <div className="container-fluid my-5 " >
+            <div className="container-fluid my-5 " data-aos="fade-left" >
                 <div className="container w-75 " style={{ marginTop: "64px" }}>
                     <div className="container">
                         <p className='h1 text-center' > About Wear-MyShirt </p>
                     </div>
-                    <p className='h3' style={{ color: "#e95598" }}> ⚡ Introduction of Wear-MyShirt</p>
+                    <p className='h3' style={{ color: "#e95598" }}> ⚡ Introduction of Wear-MyShirt... Project of {"<Twin Dev/>"}</p>
                     <div className='container mx-5' style={{ color: "#160a0f69" }}>Welcome to my dynamic and interactive e-commerce store! At Wear-MyShirt, we take pride in creating an engaging online shopping experience for our customers. Our platform is built with React JS, a cutting-edge web development framework to ensure a seamless and user-friendly interface, Backend in Firebase.</div>
                     <br /><br />
                     <p className='h3' style={{ color: "#e95598" }}> ⚡ Enhancing Skills : Project in React Js</p>
-                    <div className='container mx-5' style={{ color: "#160a0f69" }}>  This e-commerce store is more than just a place to buy shirts; it is the result of our passion for web development. As a team of enthusiastic programmers, we embarked on this project as a practice endeavor to enhance our skills and delve deeper into the world of web development.</div>
+                    <div className='container mx-5' style={{ color: "#160a0f69" }}>  This e-commerce store is more than just a place to buy shirts; it is the result of our passion for web development. As a team of Twin programmers, we embarked on this project as a practice endeavor to enhance our skills and delve deeper into the world of web development.</div>
                     <br /><br /><br />
                     <p className='h3' style={{ color: "#e95598" }}> ⚡ Focus on Shirts: Showcasing Fashion with React JS</p>
                     <div className='container mx-5' style={{ color: "#160a0f69" }}> Our focus is on providing an extensive collection of stylish and trendy shirts for all fashion enthusiasts. Leveraging the power of React JS, we have created a platform that allows you to explore a diverse range of shirts and effortlessly find your perfect fit.
@@ -33,6 +43,7 @@ const About = () => {
                     <br /><br /><br /><br />
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }
