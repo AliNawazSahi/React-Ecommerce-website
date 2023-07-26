@@ -7,7 +7,7 @@ const Main = () => {
     return (
         <div id='main_container' className='mt-5'>
             <div className="container text-center my-3">
-                <li style={{ listStyle: "none", textDecoration: "none" }}><a className="px-4 py-2 border border-3 rounded" style={{ textDecoration: "none", backgroundColor: "#ebdcdc5c" }} href="/"> <b style={{ color: "red" }}><i style={{ color: "#e25822" }} className="fa-sharp fa-solid fa-fire fa-fade fa-xl p-2"></i> Email</b> us for new custom designed products</a></li>
+                <li style={{ listStyle: "none", textDecoration: "none" }}><a className="px-4 py-2 border border-3 rounded" style={{ textDecoration: "none", backgroundColor: "#ebdcdc5c" }} href='mailto:ahsansahi@gmail.com' title='Email'> <b style={{ color: "red" }}><i style={{ color: "#e25822" }} className="fa-sharp fa-solid fa-fire fa-fade fa-xl p-2"></i> Email</b> us for new custom designed products</a></li>
             </div>
 
             <div id="carouselExampleDark" className="carousel carousel-dark slide h-50" data-bs-ride="carousel">

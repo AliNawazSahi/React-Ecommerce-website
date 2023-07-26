@@ -29,43 +29,40 @@ const Collections = () => {
                             <div className="aspect-ratio">
 
                                 <img src={collection_image1} alt="Collection 1" className="img-fluid rounded" />
-
                             </div>
                         </a>
-
                     </div>
                     <div className="col collection_image mx-1">
-                        <div className="aspect-ratio">
-
-                            <img src={collection_image2} alt="Collection 2" className="img-fluid rounded" />
-
-                        </div>
+                        <a href='/sellingProducts_model'>
+                            <div className="aspect-ratio">
+                                <img src={collection_image2} alt="Collection 2" className="img-fluid rounded" />
+                            </div>
+                        </a>
                     </div>
                     <div className="col collection_image mx-3">
-                        <div className="aspect-ratio">
-
-                            <img src={collection_image3} alt="Collection 3" className="img-fluid rounded" />
-
-                        </div>
+                        <a href='/sellingProducts_model'>
+                            <div className="aspect-ratio">
+                                <img src={collection_image3} alt="Collection 3" className="img-fluid rounded" />
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div className="row justify-content-center my-5" data-aos="fade-up">
                     <div className="col-4 collection_image mx-3 ">
-                        <div className="aspect-ratio custom-aspect-ratio">
-
-                            <img src={collection_image4} alt="Collection 4" className="img-fluid rounded" />
-
-                        </div>
+                        <a href='/sellingProducts_model'>
+                            <div className="aspect-ratio custom-aspect-ratio">
+                                <img src={collection_image4} alt="Collection 4" className="img-fluid rounded" />
+                            </div>
+                        </a>
                     </div>
                     <div className="col-4 collection_image ">
-                        <div className="aspect-ratio custom-aspect-ratio">
-
-                            <img src={theme_image4} alt="Collection 4" className="img-fluid rounded" />
-
-                        </div>
+                        <a href='/sellingProducts_model'>
+                            <div className="aspect-ratio custom-aspect-ratio">
+                                <img src={theme_image4} alt="Collection 4" className="img-fluid rounded" />
+                            </div>
+                        </a>
                     </div>
                 </div>
-
             </div>
         </div>
     );

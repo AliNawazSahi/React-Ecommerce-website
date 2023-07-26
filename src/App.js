@@ -43,7 +43,7 @@ function App() {
   };
 
   const SwagDekhh = () => {
-   
+
     return (
       <>
         <Navbar />
@@ -55,7 +55,7 @@ function App() {
     return (
       <>
         <Navbar />
-        <Marvel_Tshirt/>
+        <Marvel_Tshirt />
       </>
     );
   };
@@ -63,7 +63,7 @@ function App() {
     return (
       <>
         <Navbar />
-        <Naruto_Tshirt/>
+        <Naruto_Tshirt />
       </>
     );
   };
@@ -71,21 +71,21 @@ function App() {
     return (
       <>
         <Navbar />
-        <WingsOfFreedom/>
+        <WingsOfFreedom />
       </>
     );
   };
   const SizeChart_Popupp = () => {
     return (
       <>
-        <SizeChart_Popup/>
+        <SizeChart_Popup />
       </>
     );
   };
   const Aboutt = () => {
     return (
       <>
-        <About/>
+        <About />
       </>
     );
   };
