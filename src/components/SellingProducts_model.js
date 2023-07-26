@@ -14,7 +14,7 @@ const SellingProducts_model = () => {
 
   useEffect(() => {
     Aos.init({ duration: 2000 })
-}, [])
+  }, [])
 
   return (
     <div className='mt-5'>
@@ -211,25 +211,25 @@ const SellingProducts_model = () => {
               </div>
               <div className="container col boxShadow">
                 <a href="/WingsOfFreedom" style={{ textDecoration: "none" }}>
-                <div className="card SellingProducts_model_card_boxShadow">
-                  <div className="container p-3 "> <img src={wingsOfFreedom1_image} className="card-img-top rounded" alt="Free Shipping" /></div>
-                  <div className="card-body">
-                    <p style={{ color: "#95b7b2" }} className="card-text">Free Shipping</p>
-                    <h5 className="card-title" style={{ color: "#e95598" }}> <b> Wings Of Free...</b></h5>
-                    <h5 className="card-title" style={{ color: "black" }}> <del>Rs.1050</del> Rs.849</h5>
+                  <div className="card SellingProducts_model_card_boxShadow">
+                    <div className="container p-3 "> <img src={wingsOfFreedom1_image} className="card-img-top rounded" alt="Free Shipping" /></div>
+                    <div className="card-body">
+                      <p style={{ color: "#95b7b2" }} className="card-text">Free Shipping</p>
+                      <h5 className="card-title" style={{ color: "#e95598" }}> <b> Wings Of Free...</b></h5>
+                      <h5 className="card-title" style={{ color: "black" }}> <del>Rs.1050</del> Rs.849</h5>
+                    </div>
                   </div>
-                </div>
-              </a>
+                </a>
+
+              </div>
 
             </div>
-
           </div>
         </div>
       </div>
-    </div>
-    <div className="container-fluid mt-5 p-0 m-0">
-      <Footer/>
-    </div>
+      <div className="container-fluid mt-5 p-0 m-0">
+        <Footer />
+      </div>
     </div >
   );
 };

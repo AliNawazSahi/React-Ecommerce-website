@@ -10,7 +10,7 @@ const Footer = () => {
     useEffect(() => {
         Aos.init({ duration: 1000 })
     }, [])
-    
+
 
     return (
         <div id='footer' data-aos="fade-up">
@@ -21,18 +21,18 @@ const Footer = () => {
                         <div className="col-2">
                             <p>SHOP</p>
                             <ul className="nav flex-column">
-                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">T-Shirts</a></li>
-                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Sleeveless</a></li>
-                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Half Sleeves</a></li>
-                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Full Sleeves</a></li>
+                                <li className="nav-item mb-2"><a href="/SwagDekh" className="nav-link p-0 text-muted">SwagDekh</a></li>
+                                <li className="nav-item mb-2"><a href="/Naruto_Tshirt" className="nav-link p-0 text-muted">Naruto T-Shirt</a></li>
+                                <li className="nav-item mb-2"><a href="/Marvel_Tshirt" className="nav-link p-0 text-muted">Marvel T-Shirt</a></li>
+                                <li className="nav-item mb-2"><a href="/WingsOfFreedom" className="nav-link p-0 text-muted">Wings Of Freedom</a></li>
                             </ul>
                         </div>
 
                         <div className="col-2">
                             <p >CUSTOMER SERVICE</p>
                             <ul className="nav flex-column">
-                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Contact Us</a></li>
-                                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">About Us</a></li>
+                                <li className="nav-item mb-2"><a href='mailto:ahsansahi@gmail.com' title='Email' className="nav-link p-0 text-muted">Contact Us</a></li>
+                                <li className="nav-item mb-2"><a href="/About" className="nav-link p-0 text-muted">About Us</a></li>
                                 <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Return Policy</a></li>
 
                             </ul>
